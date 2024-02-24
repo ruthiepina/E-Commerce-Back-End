@@ -7,7 +7,7 @@
 This application started with a working Express.js API that was then confirmed to interact with a MySQL database through the use of
 Sequelize, which is an Object-Relational Mapper (ORM) tool.
 
-The walkthrough video below shows the app's functionality for GET, POST, PUT, and DELETE API routes, demonstrated b use of RESTful CRUD
+The walkthrough video below shows the app's functionality for GET, POST, PUT, and DELETE API routes, demonstrated by use of RESTful CRUD
 operations.
 
 The app also uses the MySQL2 package to connect to the MySQL database and perform queries, the Sequelize package to interact with the
@@ -20,7 +20,6 @@ like the username, password, and database name of your MySQL.
 -  [Acceptance Criteria](#acceptance-criteria)
 -  [Installation](#installation)
 -  [Usage](#usage)
--  [Example](#example)
 -  [Deliverables](#deliverables)
 -  [License](#license)
 -  [Questions](#questions)
@@ -51,31 +50,31 @@ like the username, password, and database name of your MySQL.
 
 ## Installation
 
-1. install node.js
+1. Create repository in GitHub, clone this repo into your local one!
 
-2. instal mysql 2 package
+1. Install node.js.
 
-3. install sequelize package
+1. Install npm MySQL 2 package.
 
-4. install dotenv package
+1. Install npm Sequelize package.
 
-5. update .gitignore file as needed
+1. Install npm dotenv package.
+
+1. Update your .gitignore file as needed!
 
 ## Usage
 
-1. finish installation, connect to mysql database
+1. Once you finish installation instructions, connect to MySQL database (mysql -u root -p).
 
-2. create database
+2. Once you are connected, create the database (source db/schema.sql;).
 
-3. exit mysql, seed database tables
+3. Exit mysql, and then seed the database tables (npm run seed OR node seeds/index).
 
-4. run app with npm start
+4. Now run the app with npm start from your local main branch.
 
-5. make sure app is connected to db using sequelize
+5. Make sure the app is connected to database using Sequelize.
 
-6. once connection and database seeded, use insomnia to test routes for GET, POST, PUT, DELETE
-
-## Example
+6. Once you are connected and database is seeded, use Insomnia to test routes for GET, POST, PUT, DELETE.
 
 ## Deliverables
 
