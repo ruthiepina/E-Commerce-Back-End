@@ -78,7 +78,7 @@ like the username, password, and database name of your MySQL.
 
 ## Deliverables
 
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1w3xHzfNK8eX64MEhVUZ6ZAKwrK6YmyOS/view)
 
 [GitHub Repository For E-Commerce Back End](https://github.com/ruthiepina/E-Commerce-Back-End)
 
